@@ -6,6 +6,29 @@ html {
     font-size: 62.5%;
 }
 
+p a {
+    text-decoration: none !important;
+    color: inherit;
+    border-bottom: 3px solid #8affcf;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #000000;
+    background: #8affcf;
+}
+  
+::selection {
+    color: #000000;
+    background: #8affcf;
+}
+
+p a:hover {
+    background: #6a16ff;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    border-bottom: 0px solid #8affcf;
+}
+
 body {
     font-size: 16px;
     font-size: 1.6rem;
@@ -15,6 +38,7 @@ body {
     margin: 0 auto;
     padding: 0 16px;
     line-height: 1.6;
+    border-top: #6a16ff 15px solid;
 }
 
 header#banner {
